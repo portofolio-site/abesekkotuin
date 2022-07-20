@@ -1,0 +1,190 @@
+/*!
+ * SlickNav Responsive Mobile Menu v1.0.6
+ * (c) 2015 Josh Cope
+ * licensed under MIT
+ */
+.slicknav_btn {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	float: right;
+	padding: 0.438em 0.625em 0.438em 0.625em;
+	line-height: 1.125em;
+	cursor: pointer;
+}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+	margin-top: 0.188em;　/*　ハンバーガーの間　*/
+}
+.slicknav_menu {　/*　全体の背景　*/
+	*zoom: 1;
+	background-color:#f2e3dc;
+}
+.slicknav_menu .slicknav_menutxt {
+	display: block;
+	line-height: 1.188em;
+	float: left;
+}
+.slicknav_menu .slicknav_icon {
+	float: left;
+	width: 1.125em;
+	height: 0.875em;
+	margin: 0.188em 0 0 0.438em;
+}
+.slicknav_menu .slicknav_icon:before {
+	background: transparent;
+	width: 1.125em;
+	height: 0.875em;
+	display: block;
+	content: "";
+	position: absolute;
+}
+.slicknav_menu .slicknav_no-text {
+	margin: 0;
+}
+.slicknav_menu .slicknav_icon-bar {
+	display: block;
+	width: 1.125em;
+	height: 0.125em;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.slicknav_menu:before {
+	content: " ";
+	display: table;
+}
+.slicknav_menu:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.slicknav_nav {
+	z-index:0;
+	clear: both;
+}
+.slicknav_nav ul {
+	display: block;
+}
+.slicknav_nav li {
+	display: block;
+	text-align:center;
+	letter-spacing:0.2em;
+}
+
+.slicknav_nav .slicknav_arrow {
+	font-size: 0.8em;
+	margin: 0 0 0 0.4em;
+}
+.slicknav_nav .slicknav_item {
+	cursor: pointer;
+}
+.slicknav_nav .slicknav_item a {
+	display: inline;
+}
+.slicknav_nav .slicknav_row {
+	display: block;
+}
+.slicknav_nav a {
+	display: block;
+}
+.slicknav_nav .slicknav_parent-link a {
+	display: inline;
+}
+.slicknav_brand {
+	float: left;
+}
+.slicknav_menu { /*　ナビ自体の下　*/
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+.slicknav_menu * {
+	box-sizing: border-box;
+}
+.slicknav_menu .slicknav_menutxt {
+	color: #fff;
+	font-size:13px;
+	padding-top:0px;
+	font-weight: normal;
+}
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #fff;
+}
+.slicknav_btn {
+	margin: 5px 5px 5px;
+	text-decoration: none;
+	background-color: #ccc; /*　ハンバーガーメニューの背景色　*/
+	/*　background-color:#004fa3;　茶　*/
+	/*　background-color: #0b4d7f;　紺　*/
+	/*　background-color: #6da006; 黄緑　*/
+	/*　background-color: #ffa201;  オレンジ　*/
+	/*　background-color: #008341;　緑 */
+}
+.slicknav_nav {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 0.875em;
+	list-style: none;
+	overflow: hidden;
+}
+.slicknav_nav ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 0 0 20px;
+}
+
+.slicknav_nav li {
+	background-color:#ccc;  /* ナビの背景　*/
+}
+
+.slicknav_nav li a {
+	color: #fff;  /* ここを色変え　*/
+}
+
+
+
+.slicknav_nav li:first-child {
+	border-top:1px solid #ccc;  /* ここを色変え　*/
+	margin-top:5px;
+}
+
+.slicknav_nav li:last-child {
+	margin-bottom:20px;
+}
+
+.slicknav_nav .slicknav_row {
+	padding: 0;
+	margin: 2px 5px;
+}
+.slicknav_nav .slicknav_row:hover {
+	background: #ccc;
+	color: #fff;
+}
+.slicknav_nav a {
+	padding: 10px 15px;
+	margin: 0 0;
+	text-decoration: none;
+	color: #fff;  /* 文字色　*/
+	border-bottom:1px solid #ccc;  /* 下線　*/
+}
+.slicknav_nav a:hover {
+	background:#ccc; /* オーバー時背景色　*/
+    color:  #fff; /* オーバー時文字色　*/
+}
+.slicknav_nav .slicknav_txtnode {
+	margin-left: 15px;
+}
+.slicknav_nav .slicknav_item a {
+	padding: 0;
+	margin: 0;
+}
+.slicknav_nav .slicknav_parent-link a {
+	padding: 0;
+	margin: 0;
+}
+

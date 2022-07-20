@@ -1,0 +1,783 @@
+@charset "utf-8";
+@media screen and (max-width: 768px) {
+ body {
+ min-width:640px; /* iPadで横にしたときに背景が切れるバグを回避してレスポ化　*/
+}
+
+/*===========================
+fonts
+===========================*/
+
+.minchouFontClass {
+ font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+}
+
+
+/*===========================
+general
+===========================*/
+
+
+
+.wrapper, .wrapperWide {
+ width: 100%;
+ margin: 0 auto;
+ box-sizing: border-box;
+}
+ .wrapper2 {
+ width: 100%;
+ margin: 0 auto;
+ box-sizing: border-box;
+}
+ .wrapper3 {
+ width: 100%;
+ margin: 0 auto;
+ box-sizing: border-box;
+}
+ h2 {
+ font-size: 1.8em;
+ line-height:normal;
+ padding:5px 5px 5px 5px;
+ font-weight:normal;
+ margin-bottom:15px;
+}
+ h2.h2Catch1 {
+ font-size: 2em;
+ line-height:1.3em;
+ margin-bottom:0.8em;
+}
+ h3 {
+ font-size:1.3em;
+}
+ h3.h3Catch1 {
+ font-size: 1.8em;
+ line-height:1.2em;
+ margin-bottom:0.6em;
+}
+ .catch1 {
+ font-size:1.7em;
+ line-height:1.6em;
+}
+ .catch2, .catch2Red, .catch2YG {
+ font-size:1.4em;
+ line-height:1.4em;
+}
+.catchS {
+ font-size:1.2em;
+ margin-bottom:0.4em;
+}
+ .content-title-small {
+ font-size:1.2em;
+}
+ h4 {
+ font-size: 1.1em;
+}
+ .imgFloatRightTabletCenter, .imgFloatLeftTabletCenter {
+ float:none;
+ text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+/*===========================
+header
+===========================*/
+
+
+
+/* header */
+#top-head {
+ position:relative;
+ min-width:320px;
+ text-align:center;
+ height:auto;
+}
+ #top-head .logo {
+ float:none;
+ padding:20px 0; /* 調整必要 */
+}
+
+
+
+
+
+/*===========================
+gnav
+===========================*/
+
+#gnav {
+ display:none;
+}
+
+/*Media Queries*/
+
+
+.js #menu {
+ display:none;
+}
+ .js .slicknav_menu {
+ display:block;
+}
+
+
+
+
+
+
+/*===========================
+mainimage
+===========================*/
+
+
+#mainimage {
+ height:340px;
+ background-attachment:scroll;
+	/* background-position:center top; */
+	background-position:center top 30px; /* 調整必要時 */
+ min-width:640px; /* iPadで横にしたときに背景が切れるバグを回避してレスポ化　*/
+}
+ #mainCatch {
+ padding-top:4em;
+}
+ #mainCatch p {
+ font-size:2em;
+ padding:0.5em 1em;
+}
+ .mainCatchPad {
+ padding-left:0;
+}
+
+/*-----  mainCatch 左右寄せ ----- */
+/* color とfont-family　適宜変えてOK　*/
+
+
+
+#mainCatch p {
+ width:100%;
+}
+
+
+
+
+/*===========================
+pageTitle
+===========================*/
+
+
+
+
+#pageTitle {
+ height:220px;
+ background-size:cover;
+ background-position:bottom center;
+ background-attachment:scroll;
+ min-width:320px;
+}
+ #pageTitleTxt {
+ position: absolute;
+ bottom:20px;
+ width: 100%;
+ height:65px;
+ text-align:center;
+ box-sizing: border-box;
+ padding:0;
+}
+ #pageTitleTxt h1 {
+ font-size:2.4em;
+ line-height:1.3em;
+ padding:0.2em 0 0 0;
+}
+ #pageTitleTxt span {
+ font-size:1.2em;
+ line-height:0.1em;
+}
+
+
+
+
+/*===========================
+onOff
+===========================*/
+
+
+.pcONtabletOFF {
+ display:none;
+}
+ .pcOFFtabletON {
+ display:block;
+}
+ .pcONtabletOFFspON {
+ display:none;
+}
+ .txtPCcenterTabletLeft {
+ text-align:left;
+}
+
+
+/*===========================
+footer
+===========================*/
+
+
+
+footer {
+}
+ #footerList li {
+ padding:0 0.5em;
+}
+ .footDataArea {
+ clear:both;
+ width:100%;
+}
+ .lay3foot, .lay3footR {
+ width:46%;
+ float:left;
+ margin:0 2% 3em 2%;
+}
+ .lay3footR {
+ width:100%;
+ float:left;
+ margin:0 0 0 0;
+}
+ .telIcn {
+ margin:0 0 0 0;
+ line-height:1.1em;
+}
+ .mailContact a {
+ margin-bottom:1em;
+}
+
+
+
+
+/*===========================
+other
+===========================*/
+
+
+ .pagetop {
+ position: fixed;
+ bottom: 30px;
+ right: 1%;
+}
+ .pagetop img {
+ width:80%;
+}
+ .dataArea {
+ padding:20px 0 30px 0;
+}
+ .dataArea .data {
+ float:none;
+ margin-right:0;
+ text-align:center;
+}
+
+
+
+
+
+
+/*===========================
+top
+===========================*/
+
+.bnrUl {
+ margin:0 auto;
+ width:510px;
+}
+ .topContent1 {
+ padding:20px 0 0 0;
+}
+ .topContent1 ul li {
+ width:100%;
+ float:left;
+ margin-right:0;
+ margin-bottom:1em;
+}
+ .topContent1 ul li.pic1 p, .topContent1 ul li.pic2 p {
+ width:100%;
+ padding:10px 0 10px 0;
+ background-color:rgba(17, 89, 144, 0.8);
+ color:#FFF;
+ font-size:16px;
+ margin-top:30%;
+ text-align:center;
+}
+ .btn {
+ text-align:center;
+}
+ .sp {
+ display:block;
+}
+ .topContent2 .news {
+ width:96%;
+ float:none;
+ margin:0 0;
+}
+ .topContent2 .news dl {
+ width:100%;
+ height:auto;
+ overflow:visible;
+}
+.topContent2 .news dl dt {
+ float:none;
+ padding:1em 0 0.2em 0;
+ clear:both;
+ width:auto;
+}
+.topContent2 .news dl dd {
+ padding:0 0 1em 0;
+ border-bottom:1px solid #1f6ca6;
+ margin-right:0;
+}
+ .topContent2 .photo {
+ width:100%;
+ float:none;
+ margin:0 0%;
+}
+.topContent2 .photo p {
+ width:50%;
+ float:left;
+ margin-right:0;
+ margin-bottom:0;
+}
+ .btn1 {
+ display:none;
+}
+ .arrow {
+}
+ .externalBnrWrap {
+ width:100%;
+}
+
+
+
+
+
+/*===========================
+content
+===========================*/
+
+
+.bgcolor1, .bgcolorBnr, .bgIdea, .bgIdeaBusiness, .bgIdeaSupport {
+ box-sizing: border-box;
+ padding:20px 15px;
+ min-width:320px;
+}
+ .bgcolor1s, .bgcolorBnrs {
+ box-sizing: border-box;
+ padding:20px 15px 5px 15px;
+ min-width:320px;
+}
+ .bgcolor2 {
+ box-sizing: border-box;
+ padding:20px 15px;
+ min-width:320px;
+}
+ .bgcolor2s {
+ box-sizing: border-box;
+ padding:20px 15px 5px 15px;
+ min-width:320px;
+}
+ .bgcolor2s2 {
+ box-sizing: border-box;
+ padding:20px 15px 5px 15px;
+ min-width:320px;
+}
+ .bgcolorNews {
+ box-sizing: border-box;
+ padding:20px 15px;
+ min-width:320px;
+}
+ .bgcolorNews_s {
+ box-sizing: border-box;
+ padding:20px 15px 5px 15px;
+ min-width:320px;
+}
+ .bgcolor3 {
+ box-sizing: border-box;
+ padding:20px 15px;
+ min-width:320px;
+}
+ .bgcolor3s {
+ box-sizing: border-box;
+ padding:20px 15px 5px 15px;
+ min-width:320px;
+}
+ .bgcolor4 {
+ box-sizing: border-box;
+ padding:20px 15px;
+ min-width:320px;
+ background-color:#e9eff5;
+}
+ .bgcolor4s {
+ box-sizing: border-box;
+ padding:20px 15px;
+ min-width:320px;
+ background-color:#e9eff5;
+}
+ .contPad5 {
+ width:90%;
+ margin:0 auto;
+}
+ .w80p, .w70p {
+ width:100%;
+}
+
+/* 1カラム */
+
+.lay1 {
+ width:100%;
+ padding:1em 0;
+}
+ .half img {
+ width:100%;
+}
+ .oneThird img {
+ width:100%;
+}
+
+
+/* 2カラム */
+
+.lay2, .lay2R {
+ width:100%;
+ float:none;
+ margin:0 0 2em 0;
+}
+ .partition_even {
+ margin-right:0;
+ padding-right:0;
+ border-right:none;
+}
+
+
+/* 3カラム */
+
+.lay3, .lay3R {
+ width:100%;
+ float:none;
+ margin:2em 0;
+ padding:0;
+ border:none;
+}
+ .floatr {
+ float:none;
+ margin:0 0 1em 0;
+ text-align:center;
+}
+
+
+/* 2カラム　複数 */
+
+
+.lay2PluralTablet2 {
+ float:none;
+ width:96%;
+ margin:0 0 1em 0;
+ text-align:center;
+}
+
+
+/* 3カラム　複数 inlineB */
+
+.inlineB3 {
+ width:100%;
+ font-size:0px;
+ text-align: center;
+}
+ .inlineB3 li {
+ width:310px;
+ margin:10px;
+ display:inline-block;
+ text-align: center;
+}
+
+
+/* Flexboxレイアウト */
+
+.f-item1-4 , .f-item1-5 , .f-item1-6 {
+	width: 49%;
+}
+
+
+
+
+
+/* table */
+
+ table.table1 {
+ width: 100%;
+ margin: 0 0 3% 0;
+ padding: 10px
+}
+table.table1 tr {
+ display: block;
+}
+table.table1 th {
+ display: list-item;
+ padding: 0;
+ border-bottom: none;
+ text-align: left;
+ font-weight: normal;
+ vertical-align: top;
+ width: 100%;
+ line-height: 1em;
+ font-weight:bold;
+ color:#25456d;
+}
+table.table1 td {
+ display: list-item;
+ width: 100%;
+ padding-bottom: 3%;
+ margin-bottom: 3%;
+ border-bottom: 1px #25456d solid;
+ font-weight: normal;
+ padding: 5px 0 3% 0;
+}
+
+
+/* table1の変更バージョン */
+
+table.table1_2 {
+ width:100%;
+ padding:0 30px 30px 30px;
+ border-collapse: collapse;
+}
+table.table1_2 tr {
+}
+table.table1_2 th {
+ padding:7px;
+ border-bottom: 1px #cccccc solid;
+ font-weight:normal;
+ text-align:left;
+ font-weight:bold;
+ color:#b7c82b;
+}
+table.table1_2 td {
+ padding:5px;
+ border-bottom: 1px #cccccc solid;
+ font-weight:normal;
+}
+
+
+
+
+/* 幅46％のtable */
+
+table.table2_46p {
+ width:100%;
+ border-top: 1px #c9d4dc solid;
+ border-left: 1px #c9d4dc solid;
+ color:#25456d;
+ margin-bottom:20px;
+}
+table.table2_46p th {
+ padding:6px 3px 6px 3px;
+ border-bottom: 1px #c9d4dc solid;
+ border-right: 1px #c9d4dc solid;
+ font-weight:bold;
+ background-color:#FEFAE9;
+ color:#F26D00;
+ letter-spacing:0;
+ text-align:left;
+}
+table.table2_46p td {
+ padding:4px 3px 4px 3px;
+ border-bottom: 1px #c9d4dc solid;
+ border-right: 1px #c9d4dc solid;
+ font-weight:normal;
+ background-color:#FFFFFF;
+ letter-spacing:0;
+ text-align:left;
+}
+
+
+
+
+/* 幅60％のtable */
+
+table.table2_60p {
+ width:100%;
+ border-top: 1px #c9d4dc solid;
+ border-left: 1px #c9d4dc solid;
+ color:#25456d;
+ margin-bottom:20px;
+}
+table.table2_60p th {
+ padding:6px 3px 6px 3px;
+ border-bottom: 1px #c9d4dc solid;
+ border-right: 1px #c9d4dc solid;
+ font-weight:bold;
+ background-color:#FEFAE9;
+ color:#F26D00;
+ letter-spacing:0;
+}
+table.table2_60p td {
+ padding:4px 3px 4px 3px;
+ border-bottom: 1px #c9d4dc solid;
+ border-right: 1px #c9d4dc solid;
+ font-weight:normal;
+ background-color:#FFFFFF;
+ letter-spacing:0;
+ text-align:center;
+}
+
+
+
+
+
+
+/* フロー */
+
+/* フローCenter */
+
+.area_flowC {
+ padding:0 1em;
+}
+.area_flowC .inner_flow {
+ padding:1em 2em;
+}
+ .area_flowC .inner_flow .largeTxt {
+ font-size:1.4em;
+ padding-bottom:0.2em;
+ margin-bottom:0.4em;
+}
+ .area_flowC .inner_flow .txtWrap {
+	/* padding:24px 30px; */
+	padding:0 1em;
+}
+ .area_flowC .inner_flow p.flowImg {
+ text-align:center;
+ margin:0.5em auto;
+}
+ .area_flowC .arrow {
+}
+
+/* リスト追加 */
+
+
+ul.liReseterFloat3Div {
+ line-height:1.8em;
+ margin-left:2em;
+}
+ ul.liReseterFloat3Div li {
+ width:46%;
+}
+ dl.info dt {
+ width: 8em;
+ padding: 1.4em 0 1.4em 0.5em;
+}
+ dl.info dd {
+ padding: 1.4em 0 1.4em 8.5em;
+}
+ ul.liWoodFlaot {
+ margin-left:0;
+}
+ ul.liWoodFlaot li {
+ list-style-type: none;
+ list-style-position: outside;
+ padding:0.2em 2em 0.2em 1.2em;
+ font-size:1.1em;
+ background-position:0 0.4em;
+ float:left;
+ text-align:left;
+}
+ ul.liBg2Div li {
+ width:90%;
+}
+
+
+/* BeforeAfter */
+
+.BeforeAfter {
+ width:55%;
+ height:auto;
+ margin:0 auto 3em auto;
+}
+ .baDiv {
+ width:100%;
+ float:none;
+ margin:0 1% 2% 1%;
+ text-align:center;
+}
+ .baArrowWrap {
+ width:100%;
+ float:none;
+ margin:0 auto 2% auto;
+}
+ .baArrow {
+ background-image:url(../img/common/arrow_down.png);
+ width:80px;
+ height:52px;
+ text-indent:-7777px;
+ background-repeat:repeat;
+ margin:0 auto;
+}
+ dl.history dt {
+ width: 8em;
+ padding: 7px 0 8px 0.5;
+}
+ dl.history dd {
+ padding: 7px 0 8px 8.5em;
+}
+ .telBig {
+ font-size:1.6em;
+}
+ .catchCopy {
+ text-align:center;
+ font-size:1.2em;
+ line-height:2em;
+}
+
+
+
+/*===========================
+index
+===========================*/
+
+h2.bnrContTit {
+ font-size: 1.1em;
+ line-height:1.2em;
+ text-align:left;
+ margin:0 0 0.2em 0;
+}
+ h2.pickUpFree {
+ font-size: 2em;
+}
+ .pickUpFreeTxtWrap {
+}
+
+
+
+/*===========================
+ページ内リンク直し
+===========================*/
+
+#anch01, #anch02, #anch03, #anch04, #anch05 {
+ margin-top:0;
+ padding-top:0;
+}
+
+
+/*===========================
+contact
+===========================*/
+
+
+/*  privacy */
+
+.privacy h3 {
+ font-size:1.2em;
+}
+ .privacy p {
+ padding:0 0.2em 1em 0.2em;
+}
+}

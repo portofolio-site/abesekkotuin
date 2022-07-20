@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*===========================
+add
+===========================*/
+
+/*-----------
+   色変更
+-----------*/
+
+
+/* column  */
+
+.column1_100p {
+	border:1px solid #e1e1e1;
+	background: rgba(255, 255, 255, .9);
+}
+.column1_80p {
+	border:1px solid #EBC97A;
+	background: rgba(255, 255, 255, .9);
+}
+.column1_60p {
+	border:1px solid #EBC97A;
+	background: rgba(255, 255, 255, .9);
+}
+.column2_80p {
+	border:3px double #EBC97A;
+	background: rgba(255, 255, 255, .9);
+}
+.column2_60p {
+	border:3px double #EBC97A;
+	background: rgba(255, 255, 255, .9);
+}
+.column3_80p {
+	border:4px dashed #EBC97A;
+	background: rgba(255, 255, 255, .95);
+}
+.column3_60p {
+	border:4px dashed #EBC97A;
+	background: rgba(255, 255, 255, .95);
+}
+.column4_80p {
+	border:4px dashed #EBC97A;
+	background: rgba(255, 255, 255, .95);
+}
+.column4_60p {
+	border:4px dashed #EBC97A;
+	;
+	background: rgba(255, 255, 255, .95);
+}
+/* table  */
+
+table.table3 th {
+	background-color:#b7c82b;
+	color:#333;
+}
+table.table2 th {
+	background-color:#b7c82b;
+	color:#333;
+}
+.tdColorBeige {
+	background:#FEF8E9 !important;
+	text-align:center;
+	vertical-align:middle;
+}
+table.table2 td.tdBgC01 {
+	background-color:#FFF;
+}
+table.table2 td.tdBgC02 {
+	background-color:#EEE;
+}
+table.table2 td.tdBgC03 {
+	background-color:#DDD;
+}
+table.table2 td.tdBgC04 {
+	background-color:#CCC;
+}
+table.table2 td.tdBgC05 {
+	background-color:#BBB;
+}
+
+
+
+/* addon-circle */
+
+.circle-big::before {
+ color: #FFF;
+ background:#F59338;
+}
+ ol.liFeature li::before {
+ color: #FFF;
+ background:#EEB853;
+}
+/* buttons */
+
+.txtBnr a {
+	background-color:#EA8E1E;
+}
+.txtBnr2 a {
+	color:#FFF;
+	background-color:#EA8E1E;
+	;
+	margin:0.4em 0;
+}
+.txtBnr3 a {
+	color:#FFF;
+	background-color:#EA8E1E;
+}
+.txtBnrInline a {
+	color:#FFF;
+	background-color:#EA8E1E;
+}
+/* contactBtn */
+
+
+.txtContacBnr a {
+	color:#FFF;
+	background-color:#EA8E1E;
+}
+.txtContacBnrPC {
+	color:#FFF;
+	background-color:#EA8E1E;
+}
+.txtBA {
+	color:#FFF;
+	background-color:#EA8E1E;
+}
+/* catch */
+
+h3.h3Catch1 {
+	color:#EEA011;
+}
+h3.h3Catch2 {
+	color:#EEA011;
+}
+/* catchiphrase */
+
+.catch1 {
+	color:#EEA011;
+}
+.catch2 {
+	color:#b7c82b;
+}
+.catchS {
+	color:#EEA011;
+}
+
+/* list */
+
+ul.liCircle li::before {
+ background:#F3AC56;
+}
+/* flow */
+
+
+.area_flowC .inner_flow {
+	background: rgba(254, 254, 254, .95);
+}
+.area_flowC .inner_flow .largeTxt {
+	color:#b7c82b;
+	border-bottom:1px dotted #CCC;
+}

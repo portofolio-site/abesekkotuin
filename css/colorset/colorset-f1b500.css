@@ -1,0 +1,72 @@
+/* 
+ * ------- colorset default ---------------------
+ */
+
+
+
+ul.global-nav li a:hover {
+	border-bottom:2px solid #f1b500;
+}
+
+.bnr_details a {
+    background: #f1b500;
+}
+
+h2,
+h2.bnrContTit,
+{
+    color: #222222;
+}
+
+h2 {
+	border-bottom: 2px solid #f1b500;
+}
+
+#footerList {
+    background-color: #f1b500;
+}
+
+/* ページ内リンク */
+
+ul.pageAnch a , ul.pageAnch2 a {
+	color:#FFF;
+	background-color:#f1b500;
+}
+
+
+/* humberger area */
+
+.slicknav_menu .slicknav_menutxt {  /* MENU文字色　*/
+	color: #fff;
+}
+
+.slicknav_btn {
+    background-color: #f1b500;  /* MENU背景　*/
+}
+
+.slicknav_menu {
+    background-color: #f2f2f2;  /* 背景　*/
+}
+
+.slicknav_nav li {
+    background-color: #f1b500;  /* ナビ色　*/
+}
+
+.slicknav_nav a {
+    border-bottom: 1px solid #fcfcfc;  /* 下線　*/
+}
+
+.slicknav_nav li:first-child {
+	border-top: 1px solid #fcfcfc; /* 最初の上線　*/
+}
+
+
+.slicknav_nav .slicknav_row:hover {
+	background: #f1b500;
+	color: #fff;
+}
+
+.slicknav_nav a:hover {
+	background: #f1b500; /* オーバー時背景色　*/
+	color:  #fff; /* オーバー時文字色　*/
+}
